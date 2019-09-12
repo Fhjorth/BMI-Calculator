@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var weightLabel: UITextField!
+    @IBOutlet weak var heightLabel: UITextField!
+    @IBOutlet weak var bmiLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func calculateBmiButton(_ sender: UIButton) {
+    }
 }
 
